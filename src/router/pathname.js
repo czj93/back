@@ -1,0 +1,37 @@
+const pathname = {
+	root: '/',
+	home: '/home',
+	list: '/list',
+	mobxdemo: '/mobxdemo',
+	newCreate : '/new_create/index',
+  newCreateGame : '/new_create/game',
+  newCreateCompany : '/new_create/company',
+  myGame : '/my_game/index',
+  myGameEdit : '/my_game/edit',
+  myGameCreate : '/my_game/create',
+  label : '/label/index',
+  labelCreate : '/label/create',
+  labelGameInfo : '/label/game_info',
+  labelGameDim : '/label/game_dim',
+  labelCompanyInfo : '/label/company_info',
+  allGame : '/all_game/index',
+  allGameCheckImprove : '/all_game/check/improve',
+  allGameCheckError : '/all_game/check/error',
+  allGameCheckCreate : '/all_game/check/create',
+  allGameCheckApply : '/all_game/check/apply',
+  allGameList : '/all_game/list',
+  allGameCompanyList : '/all_game/company_list',
+  admin : '/admin/index',
+  adminUserCreateUser : '/admin/user/create_user',
+  adminUserCorpUser : '/admin/user/corp_user',
+  adminUserAppUser : '/admin/user/app_user',
+  adminRoleCreateRole : '/admin/role/create_role',
+  adminRoleRolePerm : '/admin/role/role_perm',
+  adminPermCreate : '/admin/perm/create',
+  adminPermMenus : '/admin/perm/menus',
+  adminPermPerm : '/admin/perm/perm',
+  adminSendMsg : '/admin/send_msg'
+}
+
+
+export default pathname
